@@ -19,16 +19,18 @@ export const standings: Team[] = [
 ];
 
 export const fixtures: Fixture[] = [
-  { id: 1, jornada: 3, local: "L'Ametlla", away: "Santa Eulàlia", score: "Pendiente", date: "04/10/2026", venue: "Municipal L'Ametlla" },
-  { id: 2, jornada: 3, local: "Barberà", away: "Sabadellenca", score: "Pendiente", date: "04/10/2026", venue: "Municipal Barberà" },
-  { id: 3, jornada: 3, local: "Castellar", away: "Can Parellada", score: "Pendiente", date: "04/10/2026", venue: "Municipal Castellar" },
-  { id: 4, jornada: 4, local: "Penya Decano", away: "Ripollet", score: "Pendiente", date: "11/10/2026", venue: "La Ferreria" },
-  { id: 5, jornada: 4, local: "Can Parellada", away: "Sabadellenca", score: "Pendiente", date: "11/10/2026", venue: "Can Parellada" },
-  { id: 6, jornada: 4, local: "Santa Eulàlia", away: "Castellar", score: "Pendiente", date: "11/10/2026", venue: "Municipal Santa Eulàlia" },
+  { id: 1, jornada: 7, local: "L'Ametlla", away: "Santa Eulàlia", score: "Pendiente", date: "04/10/2026", venue: "Municipal L'Ametlla" },
+  { id: 2, jornada: 7, local: "Barberà", away: "Sabadellenca", score: "Pendiente", date: "04/10/2026", venue: "Municipal Barberà" },
+  { id: 3, jornada: 7, local: "Castellar", away: "Can Parellada", score: "Pendiente", date: "04/10/2026", venue: "Municipal Castellar" },
+  { id: 4, jornada: 8, local: "Penya Decano", away: "Ripollet", score: "Pendiente", date: "11/10/2026", venue: "La Ferreria" },
+  { id: 5, jornada: 8, local: "Can Parellada", away: "Sabadellenca", score: "Pendiente", date: "11/10/2026", venue: "Can Parellada" },
+  { id: 6, jornada: 8, local: "Santa Eulàlia", away: "Castellar", score: "Pendiente", date: "11/10/2026", venue: "Municipal Santa Eulàlia" },
 ];
 
 export const proposals: Proposal[] = [
-  { id: 1, title: "Propuesta de goleadores - Jornada 3", team: "Barberà", status: "pending", date: "03/10/2026" },
-  { id: 2, title: "Resultado revisado - Santa Eulàlia vs Castellar", team: "Santa Eulàlia", status: "approved", date: "02/10/2026" },
-  { id: 3, title: "Incidencia de tarjetas - Jornada 2", team: "L'Ametlla", status: "rejected", date: "30/09/2026" },
+  { id: 1, title: "Propuesta de goleadores - Jornada 6", team: "A.V. L'Ametlla del Vallés", status: "approved", date: "2026-10-25" },
+  { id: 2, title: "Propuesta de goleadores - Jornada 5", team: "Penya Decano", status: "approved", date: "2026-10-25" },
+  { id: 3, title: "Resultado revisado - Santa Eulàlia vs Castellar", team: "Santa Eulàlia", status: "approved", date: "2026-10-25" },
+  { id: 4, title: "Incidencia de tarjetas - Jornada 2", team: "L'Ametlla", status: "rejected", date: "2026-09-30" },
+  { id: 5, title: "Propuesta de goleadores - Jornada 4", team: "C.F. Barberà", status: "pending", date: "2026-10-19" },
 ];
